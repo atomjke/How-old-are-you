@@ -14,6 +14,8 @@ public class App {
         System.out.print("Ok, " + name + ", how old are you? ");
 
         age = input.nextInt();
+        
+        input.close();
 
         System.out.println();
 
